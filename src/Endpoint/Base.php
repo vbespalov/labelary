@@ -9,7 +9,7 @@ use Labelary\Client;
 class Base
 {
     /** @var Client */
-    protected Client $client;
+    protected $client;
 
     /**
      * Base constructor.

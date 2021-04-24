@@ -14,10 +14,10 @@ class Client
     const API_ENDPOINT = 'http://api.labelary.com/v1/';
 
     /** @var BaseClient $httpClient */
-    private BaseClient $httpClient;
+    private $httpClient;
 
     /** @var Endpoint\Printers $events */
-    public Endpoint\Printers $printers;
+    public $printers;
 
     /**
      * Client constructor.
